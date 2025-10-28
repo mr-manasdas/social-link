@@ -1,12 +1,13 @@
 /* importing card.css to access card styles */
 @import url("card.css");
 
+
 /* loading font family with variable font weight and slant */
 @font-face {
-    font-family: Inter;
-    src: url(../assets\fonts\Inter-VariableFont_slnt,wght.ttf) format("truetype");
-    font-weight:400 700;
-    font-style: normal;
+  font-family: "Inter";
+  src: url("../assets/Fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-weight: 400 700; /* variable font range */
+  font-style: normal;
 }
 
 :root{

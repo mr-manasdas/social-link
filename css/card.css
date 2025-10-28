@@ -29,7 +29,26 @@
     align-items: center;
 }
 
+.name {
+    width:fit-content;
+    height:auto;
+    font-family: var(--inter);
+    font-weight: var(--semi-bold);
+    font-size: 24px;
+    text-align: center;
+}
 
+.location {
+    width:fit-content;
+    height:auto;
+    font-family: var(--inter);
+    font-weight: var(--bold);
+    font-size: 14px;
+    color:var(--light-green);
+    letter-spacing: 0%;
+    line-height: auto;
+    text-align: center;
+}
 
 ul > li {
     list-style-type: none;

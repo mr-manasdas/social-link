@@ -1,5 +1,5 @@
 .card {
-    width: 370px;
+    width: fit-content;
     height: 580px;
     padding:40px;
     border-radius: 12px;
@@ -58,6 +58,32 @@
     text-align: center;
 }
 
+.social {
+    width: 289px;
+    height:auto;
+}
+
+.social > ul {
+    width:inherit;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: stretch;
+}
+
 ul > li {
     list-style-type: none;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #333333;
+    font-family: var(--inter);
+    font-weight: var(--bold);
+    font-size: 14px;
+}
+
+ul > li:hover {
+    background-color: var(--light-green);
+    color:#333333;
+    cursor: pointer;
 }

@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: column;
     gap:24px;
-    flex:1;
     align-items: center;
 }
 .profile-pic > div {
@@ -47,6 +46,15 @@
     color:var(--light-green);
     letter-spacing: 0%;
     line-height: auto;
+    text-align: center;
+}
+
+.skill-info {
+    width:fit-content;
+    height:auto;
+    font-family: var(--inter);
+    font-weight: var(--regular);
+    font-size: 14px;
     text-align: center;
 }
 
